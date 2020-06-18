@@ -47,7 +47,7 @@ pub enum Data {
     /// A value containing png byte data inside a `Option<Vec<u8>>`.
     Png(Vec<u8>),
     /// A value containing a `u32` determining the datatype of the data that is yet to be parsed.
-    Unparsed(i32),
+    Unparsed(u32),
 }
 
 impl Data {
